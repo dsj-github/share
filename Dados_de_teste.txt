@@ -1,0 +1,73 @@
+https://localhost:5001/api/Adicional
+{
+   "TBAdicionalDesc" : "paçoca",
+   "TBAdicionalTempo" : 3,
+   "TBAdicionalValor" : 3.0
+}
+
+{
+   "TBAdicionalDesc" : "leite ninho",
+   "TBAdicionalTempo" : 0,
+   "TBAdicionalValor" : 3.0
+}
+
+{
+   "TBAdicionalDesc" : "granola",
+   "TBAdicionalTempo" : 0,
+   "TBAdicionalValor" : 0.0
+}
+
+https://localhost:5001/api/Pedido
+{
+   "TBPedidoTamanho" : 2,
+   "TBPedidoSabor" : 2,
+   "TBPedidoTempo" : 15,
+   "TBPedidoValor" : 13.0
+}
+
+https://localhost:5001/api/PedidoAdicionais
+{
+   "TBPedidoID" : 1,
+   "TBAdicionalID" : 1,
+   "TBPedidoAdicionaisTempo" : 3,
+   "TBPedidoAdicionaisValor" : 3.0
+}
+
+https://localhost:5001/api/Sabor
+{
+   "TBSaborDesc" : "banana",
+   "TBSaborTempo" : 0,
+   "TBSaborValor" : 0.0
+}
+
+{
+   "TBSaborDesc" : "kiwi",
+   "TBSaborTempo" : 5,
+   "TBSaborValor" : 0.0
+}
+
+{
+   "TBSaborDesc" : "morango",
+   "TBSaborTempo" : 0,
+   "TBSaborValor" : 0.0
+}
+
+https://localhost:5001/api/Tamanho
+{
+   "TBTamanhoDesc" : "pequeno(300ml)",
+   "TBTamanhoTempo" : 5,
+   "TBTamanhoValor" : 10.0
+}
+
+{
+   "TBTamanhoDesc" : "médio(500ml)",
+   "TBTamanhoTempo" : 7,
+   "TBTamanhoValor" : 13.0
+}
+
+{
+   "TBTamanhoDesc" : "grande(700ml)",
+   "TBTamanhoTempo" : 10,
+   "TBTamanhoValor" : 15.0
+}
+
